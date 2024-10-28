@@ -1,5 +1,4 @@
-# UCB CS 61B
-CS 61B: Data Structures \
+# UCB CS61B: Data Structures
 This is my attempt to complete UC Berkeley cs course cs61b taught at Spring 2018. \
 \
 Homepage: https://sp18.datastructur.es/ \
