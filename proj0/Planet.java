@@ -36,4 +36,37 @@ public class Planet {
     public double calcForceExertedBy(Planet p) {
         return g * mass * p.mass / Math.pow(this.calcDistance(p), 2);
     }
+
+    public double calcForceExertedByX(Planet p) {
+        return this.calcForceExertedBy(p) * (p.xxPos - xxPos) / this.calcDistance(p);
+    }
+    public double calcForceExertedByY(Planet p) {
+        return this.calcForceExertedBy(p) * (p.yyPos - yyPos) / this.calcDistance(p);
+    }
+
+    /* take in an array of Planets and calculate the net X and net Y force exerted by all planets in that array upon the current Planet */
+    public double calcNetForceExertedByX(Planet[] p) {
+        double sum = 0;
+        for (Planet pp : p) {
+            sum += this.calcForceExertedByX(pp);
+        }
+        return sum;
+    }
+    public double calcNetForceExertedByY(Planet[] p) {
+        double sum = 0;
+        for (Planet pp : p) {
+            sum += this.calcForceExertedByY(pp);
+        }
+        return sum;
+    }
+
+    /* adjust the velocity and position */
+    public void update(double t, double fx, double fy) {
+        double ax = fx / mass;
+        double ay = fy / mass;
+        xxVel += t * ax;
+        yyVel += t * ay;
+        xxPos += t * xxVel;
+        yyPos += t * yyVel;
+    }
 }
