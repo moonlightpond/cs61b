@@ -6,7 +6,7 @@ Textbook: https://joshhug.gitbooks.io/hug61b/content/chap1/chap11.html \
 or https://fa24.datastructur.es/ (Fall 2024 Version)  \
 Autograder: https://www.gradescope.com (Entry code: MNXYKX)  \
 Online Java Compiler: https://onecompiler.com/java   \
-Discussion come from: https://fa24.datastructur.es/ (Fall 2024 Version)  \
+Discussion come from: https://fa24.datastructur.es/ (Fall 2024 Version) 
 
 | Readings | Topics |
 | :------: | :----: |
