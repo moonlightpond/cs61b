@@ -5,7 +5,7 @@ public class Planet {
     public double yyVel;
     public double mass;
     public String imgFileName;
-    public static double g = 6.67 * Math.pow(10, -11);
+    private static double g = 6.67 * Math.pow(10, -11);
 
     /* first constructor */
     public Planet (double xP, double yP, double xV, double yV, double m, String img) {
@@ -48,14 +48,18 @@ public class Planet {
     public double calcNetForceExertedByX(Planet[] p) {
         double sum = 0;
         for (Planet pp : p) {
-            sum += this.calcForceExertedByX(pp);
+            if (this != pp) {
+                sum += this.calcForceExertedByX(pp);
+            }    
         }
         return sum;
     }
     public double calcNetForceExertedByY(Planet[] p) {
         double sum = 0;
         for (Planet pp : p) {
-            sum += this.calcForceExertedByY(pp);
+            if (this != pp) {
+                sum += this.calcForceExertedByY(pp);
+            }           
         }
         return sum;
     }
