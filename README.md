@@ -14,5 +14,5 @@ Project2 and Project3 are Spring 2021 version (https://sp21.datastructur.es/)
 | 1 | basics, workflow, static type check |
 | 2 | class, static vs non-static, command-line arguments |
 | 3 | reference variable, pass by value, IntList |
-| 4 | SLList |
-| 5 | 
+| 4 | SLList, sentinel node |
+| 5 | DLList, generic types |
