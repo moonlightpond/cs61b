@@ -138,7 +138,8 @@ public class IntList {
             }
             A = A.rest;
         }
-        return newA;
+        A = newA;
+        return A;
     }
 
 
