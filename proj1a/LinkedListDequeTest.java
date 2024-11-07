@@ -137,11 +137,26 @@ public class LinkedListDequeTest {
 		printTestStatus(passed);
 	}
 
+	public static void ArrayDequeTest3() {
+		ArrayDeque<Integer> ad = new ArrayDeque<>();
+		ad.addLast(0);
+		ad.removeLast();
+		ad.addLast(2);
+		ad.removeLast();
+		ad.addLast(4);
+		ad.removeLast();
+		ad.isEmpty();
+		ad.isEmpty();
+		ad.addLast(8);
+		ad.removeLast();
+		ad.addLast(10);
+	}
+
 	public static void main(String[] args) {
 		System.out.println("Running tests.\n");
 		//addIsEmptySizeTest();
 		//addRemoveTest();
 		//System.out.println(test());
-		ArrayDequeTest1();
+		ArrayDequeTest3();
 	}
 } 

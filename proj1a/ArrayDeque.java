@@ -17,7 +17,7 @@ public class ArrayDeque<T> {
         return size;
     }
 
-    private int length() {
+    public int length() {
         return items.length;
     }
 
@@ -56,7 +56,9 @@ public class ArrayDeque<T> {
         T last = items[size - 1];
         size -= 1;
         if (((double)size / items.length) < 0.25) {
-            resize(items.length / RFACTOR);
+            if ((items.length / RFACTOR) >= initialsize) {
+                resize(items.length / RFACTOR);
+            }
         }
         return last;
     }
@@ -82,7 +84,9 @@ public class ArrayDeque<T> {
         System.arraycopy(items, 1, temp, 0, size);
         items = temp;
         if (((double)size / items.length) < 0.25) {
-            resize(items.length / RFACTOR);
+            if ((items.length / RFACTOR) >= initialsize) {
+                resize(items.length / RFACTOR);
+            }
         }
         return first;
     }
