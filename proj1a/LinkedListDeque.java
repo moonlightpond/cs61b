@@ -32,11 +32,13 @@ public class LinkedListDeque<T> {
         first = head;
         last = tail;
     }
+    /*
     public LinkedListDeque(T x) {
         size = 1;
         first = new NodeList(x, head, tail);
         last = new NodeList(x, head, tail);
     }
+    */
 
     public int size() {
         return size;

@@ -2,16 +2,11 @@ public class ArrayDeque<T> {
     private int size;
     private T[] items;
     private int RFACTOR = 2;
-    private int initialsize = 2;
+    private int initialsize = 8;
 
     public ArrayDeque() {
         size = 0;
         items = (T[]) new Object[initialsize];
-    }
-
-    public ArrayDeque(int s, T[] item) {
-        size = s;
-        items = item;
     }
 
     public boolean isEmpty() {
@@ -22,7 +17,7 @@ public class ArrayDeque<T> {
         return size;
     }
 
-    public int length() {
+    private int length() {
         return items.length;
     }
 
@@ -40,7 +35,7 @@ public class ArrayDeque<T> {
         }
     }
 
-    public void resize(int newsize) {
+    private void resize(int newsize) {
         T[] newitems = (T[]) new Object[newsize];
         System.arraycopy(items,0, newitems, 0, size);
         items = newitems;
