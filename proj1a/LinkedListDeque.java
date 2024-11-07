@@ -1,5 +1,5 @@
 public class LinkedListDeque<T> {
-    public class NodeList {
+    private class NodeList {
         T item;
         NodeList next;
         NodeList prev;
@@ -10,13 +10,13 @@ public class LinkedListDeque<T> {
         }
 
         public T getRecursiveHelper(int index) {
-            if (next == tail) {
-                return null;
-            }
             if (index == 0) {
                 return item;
             }
-            return next.getRecursiveHelper(index-1);
+            if (next == tail) {
+                return null;
+            }
+            return next.getRecursiveHelper(index - 1);
         }
     }
 

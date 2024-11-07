@@ -58,10 +58,10 @@ public class LinkedListDequeTest {
 		//passed = checkSize(1, lld1.size()) && passed;
 		//passed = checkEmpty(false, lld1.isEmpty()) && passed;
 
-		lld1.addLast("middle");
+		//lld1.addLast("middle");
 		//passed = checkSize(2, lld1.size()) && passed;
 
-		lld1.addLast("back");
+		//lld1.addLast("back");
 		//passed = checkSize(3, lld1.size()) && passed;
 
 		//lld1.removeLast();
@@ -73,7 +73,7 @@ public class LinkedListDequeTest {
 		//lld1.printDeque();
 		lld1.printDeque();
 		//printTestStatus(passed);
-		System.out.println(lld1.get(3));
+		System.out.println(lld1.getRecursive(0));
 	}
 
 	/** Adds an item, then removes an item, and ensures that dll is empty afterwards. */
@@ -95,13 +95,53 @@ public class LinkedListDequeTest {
 		passed = checkEmpty(true, lld1.isEmpty()) && passed;
 
 		printTestStatus(passed);
+	}
 
+	public static void ArrayDequeTest1() {
+		ArrayDeque<Integer> ad = new ArrayDeque<>();
+		boolean passed = checkEmpty(true, ad.isEmpty());
+		passed = checkSize(0, ad.size()) && passed;
+
+		ad.addLast(1);
+		ad.addLast(2);
+		passed = checkSize(2, ad.size()) && passed;
+		passed = checkSize(2, ad.length()) && passed;
+		ad.addLast(3);
+		passed = checkSize(3, ad.size()) && passed;
+		passed = checkSize(4, ad.length()) && passed;
+		ad.removeLast();
+		passed = checkSize(2, ad.size()) && passed;
+		passed = checkSize(4, ad.length()) && passed;
+		ad.printDeque();
+
+		printTestStatus(passed);
+	}
+
+	public static void ArrayDequeTest2() {
+		ArrayDeque<Integer> ad = new ArrayDeque<>();
+		boolean passed = checkEmpty(true, ad.isEmpty());
+		passed = checkSize(0, ad.size()) && passed;
+
+		ad.addFirst(1);
+		ad.addFirst(2);
+		passed = checkSize(2, ad.size()) && passed;
+		passed = checkSize(2, ad.length()) && passed;
+		ad.addFirst(3);
+		passed = checkSize(3, ad.size()) && passed;
+		passed = checkSize(4, ad.length()) && passed;
+		ad.removeFirst();
+		passed = checkSize(2, ad.size()) && passed;
+		passed = checkSize(4, ad.length()) && passed;
+		ad.printDeque();
+
+		printTestStatus(passed);
 	}
 
 	public static void main(String[] args) {
 		System.out.println("Running tests.\n");
-		addIsEmptySizeTest();
+		//addIsEmptySizeTest();
 		//addRemoveTest();
 		//System.out.println(test());
+		ArrayDequeTest1();
 	}
 } 

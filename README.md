@@ -16,3 +16,5 @@ Project2 and Project3 are Spring 2021 version (https://sp21.datastructur.es/)
 | 3 | reference variable, pass by value, IntList |
 | 4 | SLList, sentinel node |
 | 5 | DLList, generic types |
+| 6 | array, arrays of array (2d array), System.arraycopy |
+| 8 | ArrayList, resizing |
