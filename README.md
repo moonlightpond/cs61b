@@ -7,7 +7,7 @@ or https://cs61b-2.gitbook.io/cs61b-textbook (Fall 2024 Version)  \
 Autograder: https://www.gradescope.com (Entry code: MNXYKX)  \
 Online Java Compiler: https://onecompiler.com/java   \
 Online Java Visualizer: https://cscircles.cemc.uwaterloo.ca/java_visualize/#mode=edit    \
-Project2 and Project3 are Spring 2021 version (https://sp21.datastructur.es/)
+Discussions are Fall 2024 version: https://fa24.datastructur.es/
 
 | Readings | Topics |
 | :------: | :----: |
