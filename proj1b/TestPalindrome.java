@@ -25,12 +25,12 @@ public class TestPalindrome {
     }
 
     @Test
-    public void testIsPalindrome2() {
-        CharacterComparator cc = new OffByOne();
-        assertTrue(palindrome.isPalindrome("abcba", cc));
-        assertFalse(palindrome.isPalindrome("aA", cc));
-        assertTrue(palindrome.isPalindrome("a", cc));
-        assertTrue(palindrome.isPalindrome(" ", cc));
+    public void testOffByOne() {
+        CharacterComparator c = new OffByOne();
+        assertTrue(c.equalChars('a', 'b'));
+        assertTrue(c.equalChars('b', 'a'));
+        assertFalse(c.equalChars('a', 'a'));
+        assertFalse(c.equalChars('a', 'c'));
     }
 
     @Test
