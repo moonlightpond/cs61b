@@ -23,7 +23,7 @@ Discussions are important to help understand the knowledge points better. It is 
 | 9 | sub/super-class, implement, override vs overload, default |
 | 10 | extends, module encapsulation, compile-time/static type vs runtime/dynamic type, casting |
 | 11 | comparable vs comparator |
-| 12 | lists and sets, throw exception |
+| 12 | lists and sets, throw exception, iterable and iterator |
 
 Project:
 - [x] Project0: NBody Simulation
