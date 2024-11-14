@@ -15,15 +15,17 @@ Discussions are important to help understand the knowledge points better. It is 
 | 1 | basics, workflow, static type check |
 | 2 | class, static vs non-static, command-line arguments |
 | 3 | reference variable, pass by value, IntList |
-| 4 | SLList, sentinel node |
+| 4 | SLList, :candy:sentinel node |
 | 5 | DLList, generic types |
 | 6 | array, arrays of array (2d array), System.arraycopy |
 | 7 | unittesting, sort algorthm |
 | 8 | ArrayList, resizing |
 | 9 | sub/super-class, implement, override vs overload, default |
-| 10 | extends, module encapsulation, :candy:compile-time/static type vs runtime/dynamic type, :candy:casting |
+| 10 | extends, module encapsulation, :candy:(compile-time)static type vs (runtime)dynamic type, :candy:casting |
 | 11 | :candy:comparable/comparator |
 | 12 | lists and sets, throw exception, :candy:iterable/iterator |
+| 13 | asymptotic bahavior, order of growth, big-theta, big-O |
+
 
 Project:
 - [x] Project0: NBody Simulation
@@ -31,4 +33,4 @@ Project:
 - [ ] Project2
 - [ ] Project3
  
-More of my self-study cs courses: https://github.com/moonlightpond/Self-Study-Computer-Science c:
+More of my self-study cs courses: https://github.com/moonlightpond/Self-Study-Computer-Science :candy:
