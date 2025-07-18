@@ -25,7 +25,7 @@ Discussions are important to help understand the knowledge points better. It is 
 | 11 | :candy:comparable/comparator |
 | 12 | lists and sets, throw exception, :candy:iterable/iterator |
 | 13 | asymptotic bahavior, order of growth, big-theta, big-O |
-| 14 | disjoint set, QuickFind, (weighted)QuicUnion(with path compression) |
+| 14 | disjoint set, QuickFind, (weighted)QuickUnion(with path compression) |
 
 
 Project:
