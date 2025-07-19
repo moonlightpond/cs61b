@@ -35,9 +35,9 @@ Projects:
 - [ ] Project3
 
 Labs:
-- [ ] Lab1
-- [ ] Lab1
-- [ ] Lab1
+- [ ] Lab2setup
+- [ ] Lab2
+- [ ] Lab3
 - [ ] Lab1
 - [ ] Lab1
 - [ ] Lab1
