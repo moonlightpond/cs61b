@@ -22,7 +22,7 @@ Discussions are important to help understand the knowledge points better. It is 
 | 8 | ArrayList, resizing, generic AList |
 | 9 | method overloading, sub/super-class, interface/implement, override method/default |
 | 10 | extends, super() constructor, module and encapsulation, (compile-time)static type vs (runtime)dynamic type, casting, higher-order functions in Javas |
-| 11 | comparable/comparator |
+| 11 | static type vs dynamic type, comparable/comparator |
 | 12 | lists and sets, throw exception, iterable/iterator |
 | 13 | asymptotic bahavior, order of growth, big-theta, big-O |
 | 14 | disjoint set, QuickFind, (weighted)QuickUnion(with path compression) |
