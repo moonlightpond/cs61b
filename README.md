@@ -38,8 +38,8 @@ Labs:
 - [ ] Lab2setup
 - [ ] Lab2
 - [ ] Lab3
-- [ ] Lab1
-- [ ] Lab1
+- [ ] Lab4
+- [ ] Lab5
 - [ ] Lab1
 - [ ] Lab1
 - [ ] Lab1
