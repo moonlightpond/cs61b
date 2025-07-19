@@ -1,7 +1,7 @@
 # UCB CS61B (Spring 2018): Data Structures
 Hi, I'm a math student trying to self-study cs61b. \
 \
-Homepage: https://sp18.datastructur.es/ \
+Homepage: https://sp18.datastructur.es/ or https://sp21.datastructur.es/index.html \
 Textbook: https://joshhug.gitbooks.io/hug61b/content/chap1/chap11.html \
 or https://cs61b-2.gitbook.io/cs61b-textbook (Fall 2024 Version has more details)  \
 Autograder: https://www.gradescope.com (Entry code: MNXYKX)  \
@@ -19,7 +19,7 @@ Discussions are important to help understand the knowledge points better. It is 
 | 5 | DLList, generic types |
 | 6 | array, arrays of array (2d array), System.arraycopy |
 | 7 | unittesting, sort algorthm |
-| 8 | ArrayList, resizing |
+| 8 | ArrayList, resizing, generic AList |
 | 9 | sub/super-class, implement, override vs overload, default |
 | 10 | extends, module encapsulation, :candy:(compile-time)static type vs (runtime)dynamic type, :candy:casting |
 | 11 | :candy:comparable/comparator |
@@ -28,10 +28,20 @@ Discussions are important to help understand the knowledge points better. It is 
 | 14 | disjoint set, QuickFind, (weighted)QuickUnion(with path compression) |
 
 
-Project:
+Projects:
 - [x] Project0: NBody Simulation
 - [x] Project1: Data Structures + Testing
 - [ ] Project2
 - [ ] Project3
+
+Labs:
+- [ ] Lab1
+- [ ] Lab1
+- [ ] Lab1
+- [ ] Lab1
+- [ ] Lab1
+- [ ] Lab1
+- [ ] Lab1
+- [ ] Lab1
  
 More of my self-study cs courses: https://github.com/moonlightpond/Self-Study-Computer-Science :candy:
